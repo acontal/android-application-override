@@ -11,4 +11,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 	}
 
+	public String getCustomValue() {
+		CustomApplication customApplication = (CustomApplication) getApplication();
+		return customApplication.getCustomValue();
+	}
 }

@@ -11,11 +11,8 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 	}
 	
 	public void testPreconditions() {
-		getActivity();
+		MainActivity mainActivity = getActivity();
+		assertEquals("value for testing", mainActivity.getCustomValue());
 	}
 	
-	public void testToBeWritten() {
-		fail("Write me!");
-	}
-
 }
