@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>PROJECT_NAME-test</name>
+	<name>android-application-override-test</name>
 	<comment></comment>
 	<projects>
-		<project>PROJECT_NAME</project>
+		<project>android-application-override</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
