@@ -10,7 +10,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 		super(MainActivity.class);
 	}
 	
-	public void testPreconditions() {
+	public void testApplicationOverride() {
 		MainActivity mainActivity = getActivity();
 		assertEquals("value for testing", mainActivity.getCustomValue());
 	}
